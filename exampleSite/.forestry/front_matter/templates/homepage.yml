@@ -1,4 +1,18 @@
 ---
 label: homepage
 hide_body: false
-fields: []
+fields:
+- name: main_greeting
+  type: text
+  config:
+    required: false
+  label: Main greeting
+- name: subtext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: subtext
